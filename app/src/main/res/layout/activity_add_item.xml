@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_pattern"
+    tools:context=".AddItemActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="68dp"
+
+        android:layout_marginTop="66dp"
+        android:layout_marginBottom="597dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:autofillHints="username"
+            android:background="@null"
+            android:hint="Название"
+            android:inputType="text"
+
+
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:autofillHints="username"
+            android:background="@null"
+            android:hint="@string/_0"
+            android:inputType="number"
+            android:maxLines="1" />
+
+        <Button
+            android:id="@+id/add_btn"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:background="@drawable/ic_add"
+            android:contentDescription="@string/todo"
+            android:enabled="false"
+
+            android:src="@drawable/ic_add" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
