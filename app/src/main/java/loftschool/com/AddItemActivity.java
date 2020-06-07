@@ -1,7 +1,5 @@
 package loftschool.com;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextUtils;
@@ -10,7 +8,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class AddItemActivity extends AppCompatActivity {
 
@@ -22,6 +21,10 @@ public class AddItemActivity extends AppCompatActivity {
     private  EditText name;
     private  EditText price;
     private Button addBtn;
+
+
+
+
 
 
 
